@@ -15,7 +15,7 @@ const Search = () => {
       const res = await fetch(url)
       const data = await res.json()
       setMovies(data.results)
-    };
+    }
   
     useEffect(() => {
       const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`
@@ -33,6 +33,6 @@ const Search = () => {
             </div>
         </div>
     )
-};
+}
 
-export default Search;
+export default Search
