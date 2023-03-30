@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h2>Filmes</h2>
       <Outlet />
     </div>
   )
