@@ -20,7 +20,7 @@ const Search = () => {
   
     useEffect(() => {
       const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`
-      getSearchedMovies(searchWithQueryURL)
+      getSearchedMovies(searchWithQueryURL);
     }, [query])
 
     return (
